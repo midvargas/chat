@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #222;
+    color: #00ff00; /* Verde */
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.messages {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.messages li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 3px solid #007bff;
+}
+
+.message-input {
+    margin-top: 20px;
+    display: flex;
+}
+
+.message-input input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    outline: none;
+}
+
+.message-input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+.botao {
+    background-color: #333;
+    color: white;
+}
+
+.inputs {
+    background-color: #333;
+    color: white;
+}
